@@ -27,4 +27,4 @@ sudo dpkg -i liblnk-utils
 
 ## Лицензия
 
-[MIT]
+[MIT](https://github.com/igor-a-silkin/lnk2desktop/blob/main/LICENSE)
