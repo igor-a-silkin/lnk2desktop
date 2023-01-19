@@ -16,10 +16,6 @@ sudo dpkg -i liblnk-utils
 ```
 Далее **lnk2desktop** просто запускается как обычный Python-скрипт:
 ```sh
-python3 lnk2desktop.py -p documents
-```
-Пример работы скрипта:
-```sh
 python3 lnk2desktop.py 
 Результат работы скрипта:
     Каталог "/home/test_user/Desktop":
