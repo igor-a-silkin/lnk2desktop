@@ -1,5 +1,5 @@
 # lnk2desktop
- [![Python 3.7](https://img.shields.io/badge/python-3.7-blue.svg)](https://www.python.org/downloads/release/python-370/) [![Python 3.8](https://img.shields.io/badge/python-3.8-blue.svg)](https://www.python.org/downloads/release/python-380/) [![liblnk](https://img.shields.io/badge/requirements-liblnk-blue.svg)](https://github.com/libyal/liblnk) [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black) [![License: MIT](https://img.shields.io/badge/License-MIT-blueviolet.svg)](https://opensource.org/licenses/MIT)
+ [![Python 3.7](https://img.shields.io/badge/python-3.7-blue.svg)](https://www.python.org/downloads/release/python-370/) [![Python 3.8](https://img.shields.io/badge/python-3.8-blue.svg)](https://www.python.org/downloads/release/python-380/) [![liblnk](https://img.shields.io/badge/requirements-liblnk-blue.svg)](https://github.com/libyal/liblnk) [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black) [![License: MIT](https://img.shields.io/badge/License-MIT-blueviolet.svg)](https://github.com/igor-a-silkin/lnk2desktop/blob/main/LICENSE)
 ## Конвертер файлов ярлыков Windows *.url и *.lnk в формат *.desktop Linux
 
 **lnk2desktop** - скрипт, написанный на языке Python 3.x, служит для конвертации файлов форматов Windows **.url** и **.lnk** в формат ярлыков **.desktop** Linux. При переходе с ОС Windows на Linux и переносе пользовательских данных, включая каталог "Рабочий стол", можно столкнуться с проблемой неработоспособности ярлыков, т.к. в Linux они имеют свой формат, отличный от Windows. Данный скрипт решает эту проблему.
@@ -14,7 +14,7 @@ sudo apt install liblnk-utils
 sudo dpkg -i liblnk1
 sudo dpkg -i liblnk-utils
 ```
-Далее **lnk2desktop** просто запускается как обычный Python-скрипт.
+Далее **lnk2desktop** просто запускается как обычный Python-скрипт:
 
 ## Особенности
 Скрипт имеет следующие параметры командной строки:
