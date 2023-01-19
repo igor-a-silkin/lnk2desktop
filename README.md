@@ -15,6 +15,23 @@ sudo dpkg -i liblnk1
 sudo dpkg -i liblnk-utils
 ```
 Далее **lnk2desktop** просто запускается как обычный Python-скрипт:
+```sh
+python3 lnk2desktop.py -p documents
+```
+Пример работы скрипта:
+```sh
+python3 lnk2desktop.py 
+Результат работы скрипта:
+    Каталог "/home/test_user/Desktop":
+        Обработано файлов *.url:         8
+        Обработано файлов *.lnk:         8
+
+    Каталог "/home/test_user":
+        Обработано файлов *.url:         0
+        Обработано файлов *.lnk:         0
+
+Подробности в файле "/home/test_user/lnk2desktop.log"
+```
 
 ## Особенности
 Скрипт имеет следующие параметры командной строки:
