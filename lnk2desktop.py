@@ -81,15 +81,6 @@ NEED_INSTALL_MSG: str = """
     sudo dpkg -i liblnk1
     sudo dpkg -i liblnk-utils
 
-    На Arch Linux и его вариантах:
-    sudo pacman install liblnk-utils
-
-    На Fedora:
-    sudo dnf install liblnk-utils
-
-    На Red Hat, CentOS 7:
-    sudo yum install liblnk-utils
-
     В Debian (Ubuntu):
     sudo apt install liblnk-utils
     """
